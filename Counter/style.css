@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+}
+
+h2{
+    font-size: 300%;
+    text-align: center;
+    color: white;
+}
+
+.counter{
+    text-align: center;
+    font-size: 500%;
+    color: white;
+
+}
+
+.buttons{
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    color: white;
+    /* border: 1px solid white; */
+    margin: 10px;
+    padding: 30px;
+}
+
+#add-btn{
+    border:3px solid white;
+    padding: 35px;
+    font-size: 250%;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+}
+
+#sub-btn{
+    border:3px solid white;
+    padding: 35px;
+    font-size: 250%;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+}
+
+#add-btn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#sub-btn:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
